@@ -1,0 +1,23 @@
+_id: req_63c9341c99ee4fd9b48ea92035a5cd44
+type: Request
+parentId: fld_8c0448cd341b45f5bb068092b47d27bd
+modified: 1675855250072
+created: 1675855060853
+url: "{{ _.localhost }}/api/auth/v1/logout"
+name: Logout
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1675855060853
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

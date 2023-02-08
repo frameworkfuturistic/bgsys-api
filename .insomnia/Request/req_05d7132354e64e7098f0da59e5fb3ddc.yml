@@ -1,0 +1,44 @@
+_id: req_05d7132354e64e7098f0da59e5fb3ddc
+type: Request
+parentId: fld_8c0448cd341b45f5bb068092b47d27bd
+modified: 1675854750565
+created: 1668818982568
+url: "{{ _.localhost }}/api/auth/v1/register"
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Anshu Kumar",
+    	"email":"anshu@gmail.com",
+    	"mobile":"0123456789",
+    	"password":"Admin1#",
+    	"cPassword":"Admin1#"
+    }
+parameters: []
+headers:
+  - id: pair_4bce4a035d4d4bb9a81bdb2cd80837ac
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_0acb3a3e1d9840788c5589f5c2c422c0
+    name: ""
+    value: ""
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_8ee6c6c992c242df8b88eac9f94eec58
+authentication:
+  type: bearer
+  token: ""
+  disabled: true
+metaSortKey: -1668818982493
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

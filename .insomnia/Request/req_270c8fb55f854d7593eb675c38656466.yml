@@ -1,0 +1,31 @@
+_id: req_270c8fb55f854d7593eb675c38656466
+type: Request
+parentId: fld_8c0448cd341b45f5bb068092b47d27bd
+modified: 1675855796417
+created: 1675855604545
+url: "{{ _.localhost }}/api/auth/v1/change-password"
+name: Change Password
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"oldPassword":"Admin1#",
+    	"newPassword":"Admin1#"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1675855604545
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

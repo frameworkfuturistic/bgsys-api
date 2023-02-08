@@ -1,0 +1,29 @@
+_id: req_791e4542af22423a9ec7c59e5b6c3a67
+type: Request
+parentId: fld_8c0448cd341b45f5bb068092b47d27bd
+modified: 1675855052607
+created: 1675854738302
+url: "{{ _.localhost }}/api/auth/v1/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"anshu@gmail.com",
+    	"password":"Admin1#"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668818982543
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
