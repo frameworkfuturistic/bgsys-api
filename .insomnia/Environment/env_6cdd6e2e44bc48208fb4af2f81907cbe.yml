@@ -1,12 +1,12 @@
 _id: env_6cdd6e2e44bc48208fb4af2f81907cbe
 type: Environment
 parentId: env_bed1f4ebdbd6fc66ffd234a12acb4f14c38e08c9
-modified: 1675855763262
+modified: 1677915341479
 created: 1675840822131
 name: .env
 data:
   localhost: 127.0.0.1:8000
-  bearer: 5|z5wy575J3oZSckCkbrFxes5p4qM6nwvOofJ5VLSu
+  bearer: 40|pFpiTyJL7bVvsVDc8j9Gd0A9tm8K5rjDZ6tbICt7
 dataPropertyOrder:
   "&":
     - localhost
