@@ -1,0 +1,32 @@
+_id: req_e4196845cde1400eb8bc9653e2612b17
+type: Request
+parentId: fld_cabf619f3c6a4e11a05e24e307563890
+modified: 1677927270911
+created: 1677926012694
+url: "{{ _.localhost }}/api/masters/v1/edit-designation"
+name: Edit Designation
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"designationId":"1",
+    	"designationName":"DPRC",
+    	"designationCode":"123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1677921895098
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

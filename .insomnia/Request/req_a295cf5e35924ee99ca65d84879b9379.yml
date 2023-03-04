@@ -1,0 +1,31 @@
+_id: req_a295cf5e35924ee99ca65d84879b9379
+type: Request
+parentId: fld_cabf619f3c6a4e11a05e24e307563890
+modified: 1677926617210
+created: 1677922312502
+url: "{{ _.localhost }}/api/masters/v1/post-designation"
+name: Post Designation
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"designationName":"SPRC",
+    	"designationCode":"123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1677921895085.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

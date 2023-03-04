@@ -1,0 +1,30 @@
+_id: req_643b54a2dc444b479a8d01570b0a2b7d
+type: Request
+parentId: fld_cabf619f3c6a4e11a05e24e307563890
+modified: 1677927418487
+created: 1677927267937
+url: "{{ _.localhost }}/api/masters/v1/get-designation-by-id"
+name: Get Designation by id
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"designationId":"1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1677921895101.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

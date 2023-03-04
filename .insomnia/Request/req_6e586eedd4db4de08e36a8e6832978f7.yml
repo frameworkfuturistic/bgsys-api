@@ -1,0 +1,52 @@
+_id: req_6e586eedd4db4de08e36a8e6832978f7
+type: Request
+parentId: fld_7765067d3eb94d3baa5129a55aebb8b7
+modified: 1677920122583
+created: 1677919150249
+url: "{{ _.localhost }}/api/masters/v1/post-category"
+name: Post Category
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"level":"2",
+    	"designation":"IAS",
+    	"location":"Ranchi",
+    	"noOfCl":"1",
+    	"overtimeInsentive":"200",
+    	"basicPay":"2000",
+    	"hra":"",
+    	"commucationAllowance":"",
+    	"medicalAllowance":"",
+    	"transportAllowance":"",
+    	"pfContribution":"",
+    	"performanceIncentive":"",
+    	"childEducationAllowance":"",
+    	"daOutsideMetro":"",
+    	"daOutsideCapitalCity":"",
+    	"daOutsideOtherCity":"",
+    	"foodOutsideMetro":"",
+    	"foodOutsideCapitalCity":"",
+    	"foodOutsideOtherCity":"",
+    	"daLocalCapitalCity":"",
+    	"daLocalOtherCity":"",
+    	"foodLocalCapitalCity":"",
+    	"foodLocalOtherCity":""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1677919150250
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

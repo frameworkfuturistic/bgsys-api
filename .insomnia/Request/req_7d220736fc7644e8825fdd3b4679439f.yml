@@ -1,0 +1,23 @@
+_id: req_7d220736fc7644e8825fdd3b4679439f
+type: Request
+parentId: wrk_eb5734a91df94838a2bbe63b13a63e22
+modified: 1677921764408
+created: 1677921477769
+url: "{{ _.localhost }}/api/masters/v1/level-lists"
+name: Get All Levels
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: " {{ _.bearer }}"
+metaSortKey: -1677921477769
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

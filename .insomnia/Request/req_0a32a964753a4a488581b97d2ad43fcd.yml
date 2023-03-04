@@ -1,0 +1,23 @@
+_id: req_0a32a964753a4a488581b97d2ad43fcd
+type: Request
+parentId: fld_cabf619f3c6a4e11a05e24e307563890
+modified: 1677927433551
+created: 1677927415863
+url: "{{ _.localhost }}/api/masters/v1/designation-lists"
+name: Designation Lists
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1677921895104.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
